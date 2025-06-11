@@ -7,7 +7,7 @@
 > 
 > I'm always curious to learn something new and am always looking to network with professionals and make new friends, feel free to reach out and connect!
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/nicholaseovva)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
 ---
 
