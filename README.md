@@ -11,7 +11,7 @@
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=30&duration=6000&pause=1000&color=F7F7F7&width=435&lines=Achievments%3A)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=30&duration=6000&pause=1000&color=F7F7F7&width=435&lines=Achievements%3A)](https://git.io/typing-svg)
 <!-- BLOG-POST-LIST:START -->
 - [Awarded 1st Place and Raised $5000 @ Sac State's University-wide Innovation Competition](https://www.linkedin.com/posts/carlsencenter_innovationcompetition-studentfounders-entrepreneurship-ugcPost-7326310429645754371-wD6W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U)
 
