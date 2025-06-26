@@ -19,7 +19,7 @@
 
 - [Won 1st Place and Awarded $1500 @ HornetHacks 2.0](https://www.linkedin.com/posts/nicholaseovva_im-thrilled-to-share-that-my-team-took-1st-activity-7304209900258144256-nlAW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By building an AAC device using Swift to help children with autism and car crash victims better articulate themselves via the design, implementation, and testing of a relational database. 
 
-- [Won 1st Place @ ASA DataFest 2025](https://www.linkedin.com/posts/brayan-mejia-nunez_datascience-datafest-asadatafest-ugcPost-7318386195686666240-bTm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U)
+- [Won 1st Place @ ASA DataFest 2025](https://www.linkedin.com/posts/brayan-mejia-nunez_datascience-datafest-asadatafest-ugcPost-7318386195686666240-bTm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By analyzing a dataset of over 500,000 lines across multiple file formats and leveraging ETL techniques to find patterns, data insights, and build visualizations.
 
 
 <!-- BLOG-POST-LIST:END -->
