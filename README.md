@@ -38,7 +38,7 @@
 >
 > **Libraries and Frameworks**
 >
-> <img src="https://www.svgrepo.com/show/354140/opengl.svg" height="60" alt="opengl logo"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="60" alt="selenium logo"/>
+> <img src="https://www.svgrepo.com/show/354140/opengl.svg" height="60" alt="opengl logo"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" height="60" alt="selenium logo"/> <img src="https://www.svgrepo.com/show/373554/django.svg" height="60" alt="django-logo"/>
 >
 > **Tools**
 >
