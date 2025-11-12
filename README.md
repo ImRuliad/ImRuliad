@@ -26,7 +26,7 @@ About Me
 
 - ⚡️ Recently become engulfed in Computer Architecture and Organization prompting me to learn HDL, Verilog, and FPGA programming.
 
-- 🦠 I have a keen interest in cellular automata and often read [![Stephen Wolfram's writings.](https://writings.stephenwolfram.com/)
+- 🦠 I have a keen interest in cellular automata and often read [Stephen Wolfram's writings.](https://writings.stephenwolfram.com/)
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
