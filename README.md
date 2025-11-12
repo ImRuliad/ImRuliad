@@ -9,23 +9,14 @@ I've won 1st place in [HornetHacks 2.0](https://www.linkedin.com/posts/nicholase
 
 I've also won 1st place in [ASA DataFest 2025](https://www.linkedin.com/posts/brayan-mejia-nunez_datascience-datafest-asadatafest-ugcPost-7318386195686666240-bTm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By analyzing a dataset of over 500,000 lines across multiple file formats and leveraging ETL techniques to find patterns, data insights, and build visualizations.
 
+Furthermore, I am a Co Founder of Option Three LLC which develops software centered around accessibility for non-verbal individuals or those with Autism. 
+So far we've been awarded 1st place at many startup pitches and have ***raised over $10,000*** by attending [Sac State's University-wide Innovation Competition](https://www.linkedin.com/posts/carlsencenter_innovationcompetition-studentfounders-entrepreneurship-ugcPost-7326310429645754371-wD6W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) and [Northern California Venture Conference](https://www.linkedin.com/posts/gulp-aac_innovationcompetition-studentfounders-entrepreneurship-ugcPost-7330103696220921857-IVMG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U)
+
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
 ---
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=30&duration=6000&pause=1000&color=F7F7F7&width=435&lines=Achievements%3A)](https://git.io/typing-svg)
-<!-- BLOG-POST-LIST:START -->
-- [Awarded 1st Place and Raised $5000 @ Sac State's University-wide Innovation Competition](https://www.linkedin.com/posts/carlsencenter_innovationcompetition-studentfounders-entrepreneurship-ugcPost-7326310429645754371-wD6W?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U)
-
-- [Raised $1000 @ Northern California Venture Conference](https://www.linkedin.com/posts/gulp-aac_innovationcompetition-studentfounders-entrepreneurship-ugcPost-7330103696220921857-IVMG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U)
-
-- [HornetHacks 2.0](https://www.linkedin.com/posts/nicholaseovva_im-thrilled-to-share-that-my-team-took-1st-activity-7304209900258144256-nlAW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By building an AAC device using Swift to help children with autism and car crash victims better articulate themselves via the design, implementation, and testing of a relational database. 
-
-- [Won 1st Place @ ASA DataFest 2025](https://www.linkedin.com/posts/brayan-mejia-nunez_datascience-datafest-asadatafest-ugcPost-7318386195686666240-bTm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By analyzing a dataset of over 500,000 lines across multiple file formats and leveraging ETL techniques to find patterns, data insights, and build visualizations.
-
-
-<!-- BLOG-POST-LIST:END -->
----
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=30&duration=6000&pause=1000&color=F7F7F7&width=435&lines=Technical+Skills%3A)](https://git.io/typing-svg)
 
