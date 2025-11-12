@@ -12,7 +12,7 @@ So far we've been awarded 1st place at many startup pitches and have ***raised o
 
 ***Here's what I'm working on***
 - ⚡️ Computer Architecture and Organization using HDL, Verilog, FPGA, and Quartus
-- 🧠 AI development like RAG setups and LLMs
+- 🧠 AI development like RAG setups, LLMs, and Agentic AI
 - 🔺 Dabbling into graphics programming using C++, OpenGL 4.0, GLEW, and SOIL2
 - 🧱 Database development using PostegreSQL, Microsoft SQL Server, SSMS, and sqlite3
 - 💻 Web scraping and data aggregation using BeautifulSoup4 and Selenium.
