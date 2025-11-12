@@ -24,9 +24,11 @@ About Me
   
 - 🧑‍🏫 Data Structures & Algorithms club president, holding group leetcode sessions of over 20 students, mock interviews, and industry speaker events.
 
-- ⚡️ Recently became engulfed in hardware, learning computer architecture and organization, prompting me to learn HDL, Verilog, and FPGA programming.
+- ⚡️ Recently became engulfed in hardware, learning computer architecture and organization, prompting me to learn HDL, Verilog, and FPGA programming. I am currently reading [*What Every Programmer Should Know About Memory*](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf)
 
 - 🦠 I have a keen interest in cellular automata and often read [Stephen Wolfram's writings.](https://writings.stephenwolfram.com/)
+
+- 🎶 If I'm not listening to a podcast or in a deep work/study session you can find me listening to a wide gamut of artists like Deftones, System of a Down, TOPS, and Men I Trust.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
