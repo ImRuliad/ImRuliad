@@ -20,6 +20,7 @@ So far we've been awarded 1st place at many startup pitches and have ***raised o
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
+About Me
 ---
 
 <!--
