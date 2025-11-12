@@ -21,11 +21,8 @@ So far we've been awarded 1st place at many startup pitches and have ***raised o
 About Me
 ---
 - 🎯 Interning at SMUD designing, developing, testing, and implementing a database using sqlite3, Microsoft SQL Server, and SQL Server Management Studio to eliminate over ***100*** data silos. I also find myself doing a fair bit of data analysis and ETL workflow development.
-
 - 🧑‍🏫 Data Structures & Algorithms club president, holding group leetcode sessions of over 20 students, mock interviews, and industry speaker events.
-
 - ⚡️ Recently become engulfed in Computer Architecture and Organization prompting me to learn HDL, Verilog, and FPGA programming.
-
 - 🦠 I have a keen interest in cellular automata and often read [Stephen Wolfram's writings.](https://writings.stephenwolfram.com/)
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
