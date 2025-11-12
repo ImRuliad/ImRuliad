@@ -24,7 +24,7 @@ About Me
   
 - 🧑‍🏫 Data Structures & Algorithms club president, holding group leetcode sessions of over 20 students, mock interviews, and industry speaker events.
 
-- ⚡️ Recently become engulfed in Computer Architecture and Organization prompting me to learn HDL, Verilog, and FPGA programming.
+- ⚡️ Recently became engulfed in hardware, learning computer architecture and organization, prompting me to learn HDL, Verilog, and FPGA programming.
 
 - 🦠 I have a keen interest in cellular automata and often read [Stephen Wolfram's writings.](https://writings.stephenwolfram.com/)
 
