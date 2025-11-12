@@ -1,11 +1,12 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=30&duration=6000&pause=1000&color=F7F7F7&width=435&lines=About+Me%3A)](https://git.io/typing-svg)
 
-> [!IMPORTANT] 
-> Hi there 👋 I'm **Nicholas Eovva**
->
-> Im a passionate Computer Science student that's always looking for an opportunity to build my technical skills and contribute to a project that will drive positive change.
-> 
-> I'm always curious to learn something new and am always looking to network with professionals and make new friends, feel free to reach out and connect!
+#Hi, I'm Nicholas 👋
+---
+I'm a current Computer Science student and an intern at SMUD working on database design & development and data analysis.
+
+
+I've won 1st place in [HornetHacks 2.0](https://www.linkedin.com/posts/nicholaseovva_im-thrilled-to-share-that-my-team-took-1st-activity-7304209900258144256-nlAW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By building an AAC device using Swift to help children with autism and car crash victims better articulate themselves.
+And I've also won 1st place in [ASA DataFest 2025](https://www.linkedin.com/posts/brayan-mejia-nunez_datascience-datafest-asadatafest-ugcPost-7318386195686666240-bTm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By analyzing a dataset of over 500,000 lines across multiple file formats and leveraging ETL techniques to find patterns, data insights, and build visualizations.
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
@@ -17,7 +18,7 @@
 
 - [Raised $1000 @ Northern California Venture Conference](https://www.linkedin.com/posts/gulp-aac_innovationcompetition-studentfounders-entrepreneurship-ugcPost-7330103696220921857-IVMG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U)
 
-- [Won 1st Place and Awarded $1500 @ HornetHacks 2.0](https://www.linkedin.com/posts/nicholaseovva_im-thrilled-to-share-that-my-team-took-1st-activity-7304209900258144256-nlAW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By building an AAC device using Swift to help children with autism and car crash victims better articulate themselves via the design, implementation, and testing of a relational database. 
+- [HornetHacks 2.0](https://www.linkedin.com/posts/nicholaseovva_im-thrilled-to-share-that-my-team-took-1st-activity-7304209900258144256-nlAW?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By building an AAC device using Swift to help children with autism and car crash victims better articulate themselves via the design, implementation, and testing of a relational database. 
 
 - [Won 1st Place @ ASA DataFest 2025](https://www.linkedin.com/posts/brayan-mejia-nunez_datascience-datafest-asadatafest-ugcPost-7318386195686666240-bTm6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfqIMIBqKxjFoZbDTZxhWr4wXjXJB8Vy_U) By analyzing a dataset of over 500,000 lines across multiple file formats and leveraging ETL techniques to find patterns, data insights, and build visualizations.
 
