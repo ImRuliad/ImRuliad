@@ -15,6 +15,7 @@ So far we've been awarded 1st place at many startup pitches and have ***raised o
 - 🔺 Dabbling into graphics programming using C++, OpenGL 4.0, GLEW, and SOIL2
 - 🧱 Database development using PostegreSQL, Microsoft SQL Server, SSMS, and sqlite3
 - 💻 Web scraping and data aggregation using BeautifulSoup4 and Selenium.
+
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholaseovva)
 
 ---
