@@ -20,7 +20,9 @@ So far we've been awarded 1st place at many startup pitches and have ***raised o
 
 About Me
 ---
-- 🎯 Interning at SMUD designing, developing, testing, and implementing a database using sqlite3, Microsoft SQL Server, and SQL Server Management Studio to eliminate over ***100*** data silos. I also find myself doing a fair bit of data analysis and ETL workflow development.
+- 👾 I'm an incoming intern at Intel where I will be writing software to debug silicon.
+
+- 🎯 I've also interned at SMUD designing, developing, testing, and implementing a database using sqlite3, Microsoft SQL Server, and SQL Server Management Studio to eliminate over ***100*** data silos. I also find myself doing a fair bit of data analysis and ETL workflow development.
   
 - 🧑‍🏫 Data Structures & Algorithms club president, holding group leetcode sessions of over 20 students, mock interviews, and industry speaker events.
 
