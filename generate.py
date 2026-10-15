@@ -36,11 +36,11 @@ PROFILE = [
 THEMES = {
     "dark": {
         "bg": "#161b22", "text": "#c9d1d9", "key": "#d2a8ff",
-        "value": "#a5d6ff", "cc": "#616e7f", "art": ("#d2a8ff", "#79c0ff"),
+        "value": "#a5d6ff", "cc": "#616e7f", "art": ("#e6edf3", "#79c0ff"),
     },
     "light": {
         "bg": "#f6f8fa", "text": "#24292f", "key": "#8250df",
-        "value": "#0a3069", "cc": "#8c959f", "art": ("#8250df", "#0969da"),
+        "value": "#0a3069", "cc": "#8c959f", "art": ("#57606a", "#0a3069"),
     },
 }
 
@@ -52,30 +52,30 @@ PAD = 30
 GAP = 40
 INFO_COLS = 64
 
-# ASCII art: a painting rendered with a smaller font so it keeps its detail
+# ASCII art: a painting rendered as dithered shade blocks in a small font
 ART_IMAGE = "art/painting.jpg"
+ART_ROWS = 70
 ART_FONT_SIZE = 8
 ART_CHAR_W = 4.8
 ART_LINE_H = 8
-RAMP = " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
+SHADES = " ░▒▓█"
 
 
-def image_to_ascii(path, rows, invert):
-    """Convert an image to `rows` lines of ASCII, keeping its aspect ratio."""
+def image_to_ascii(path, invert):
+    """Convert an image to ART_ROWS lines of shade blocks, keeping its aspect ratio."""
     from PIL import Image, ImageOps
 
     img = ImageOps.autocontrast(Image.open(path).convert("L"), cutoff=1)
-    cols = round(rows * ART_LINE_H * img.width / img.height / ART_CHAR_W)
-    px = img.resize((cols, rows), Image.LANCZOS).load()
-    lines = []
-    for y in range(rows):
-        line = ""
-        for x in range(cols):
-            v = px[x, y] / 255
-            if invert:
-                v = 1 - v
-            line += RAMP[min(int(v * len(RAMP)), len(RAMP) - 1)]
-        lines.append(line.rstrip())
+    if invert:
+        img = ImageOps.invert(img)
+    cols = round(ART_ROWS * ART_LINE_H * img.width / img.height / ART_CHAR_W)
+    img = img.resize((cols, ART_ROWS), Image.LANCZOS)
+    # Floyd-Steinberg dither down to one gray level per shade glyph
+    levels = [round(i * 255 / (len(SHADES) - 1)) for i in range(len(SHADES))]
+    palette = Image.new("P", (1, 1))
+    palette.putpalette([c for level in levels for c in (level, level, level)])
+    px = img.convert("RGB").quantize(palette=palette, dither=Image.Dither.FLOYDSTEINBERG).load()
+    lines = ["".join(SHADES[px[x, y]] for x in range(cols)).rstrip() for y in range(ART_ROWS)]
     return lines, cols
 
 
@@ -114,12 +114,14 @@ def build_svg(theme):
     t = THEMES[theme]
     info = info_lines()
     info_h = LINE_H * len(info)
-    art_rows = info_h // ART_LINE_H
+    art_h = ART_LINE_H * ART_ROWS
     # Dark theme: bright pixels get dense glyphs; light theme: dark pixels do
-    art, art_cols = image_to_ascii(ART_IMAGE, art_rows, invert=(theme == "light"))
+    art, art_cols = image_to_ascii(ART_IMAGE, invert=(theme == "light"))
     art_w = ART_CHAR_W * art_cols
     width = round(PAD * 2 + art_w + GAP + CHAR_W * INFO_COLS)
-    height = PAD * 2 + info_h
+    height = PAD * 2 + max(art_h, info_h)
+    art_top = PAD + (height - PAD * 2 - art_h) // 2
+    info_top = PAD + (height - PAD * 2 - info_h) // 2
     info_x = round(PAD + art_w + GAP, 1)
 
     parts = [
@@ -128,24 +130,24 @@ def build_svg(theme):
         "<style>",
         f"text,tspan{{white-space:pre}} .key{{fill:{t['key']}}} .value{{fill:{t['value']}}} .cc{{fill:{t['cc']}}}",
         "</style>",
-        f'<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="{PAD}" x2="0" y2="{PAD + info_h}">'
+        f'<linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="{art_top}" x2="0" y2="{art_top + art_h}">'
         f'<stop offset="0" stop-color="{t["art"][0]}"/><stop offset="1" stop-color="{t["art"][1]}"/>'
         "</linearGradient>",
         f'<rect width="{width}px" height="{height}px" fill="{t["bg"]}" rx="15"/>',
-        f'<text x="{PAD}" y="{PAD}" fill="url(#g)" font-size="{ART_FONT_SIZE}px">',
+        f'<text x="{PAD}" y="{art_top}" fill="url(#g)" font-size="{ART_FONT_SIZE}px">',
     ]
     for j, line in enumerate(art):
         if line:
-            parts.append(f'<tspan x="{PAD}" y="{PAD + ART_LINE_H * (j + 1) - 1}">{escape(line)}</tspan>')
+            parts.append(f'<tspan x="{PAD}" y="{art_top + ART_LINE_H * (j + 1) - 1}">{escape(line)}</tspan>')
     parts.append("</text>")
 
-    parts.append(f'<text x="{info_x}" y="{PAD}" fill="{t["text"]}">')
+    parts.append(f'<text x="{info_x}" y="{info_top}" fill="{t["text"]}">')
     for j, spans in enumerate(info):
         body = "".join(
             f'<tspan class="{cls}">{escape(txt)}</tspan>' if cls else escape(txt)
             for cls, txt in spans
         )
-        parts.append(f'<tspan x="{info_x}" y="{PAD + LINE_H * (j + 1) - 5}">{body}</tspan>')
+        parts.append(f'<tspan x="{info_x}" y="{info_top + LINE_H * (j + 1) - 5}">{body}</tspan>')
     parts.append("</text>")
     parts.append("</svg>")
     return "\n".join(parts) + "\n"
