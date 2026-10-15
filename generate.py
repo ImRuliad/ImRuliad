@@ -12,20 +12,20 @@ USER = "nicholas@imruliad"
 PROFILE = [
     ("Main", [
         ("Occupation", "Systems Software Engineer Intern @ Intel"),
-        ("Location", "Folsom, CA"),
-        ("Languages", "Python, C++, TypeScript, SystemVerilog"),
-        ("Frameworks", "Django"),
-        ("Tools", "Git, CMake, Obsidian"),
+        ("Location", "Sacramento, California"),
+        ("Languages", "Python, Java, C++, PowerShell"),
+        ("Frameworks/Libraries", "Django, FastAPI, SQLAlchemy, Alembic"),
+        ("Tools", "Git, Postman"),
     ]),
     ("Dev Environment", [
-        ("Agents", "Claude Code"),
+        ("Agents", "Claude, Codex"),
         ("Harnesses", "TODO"),
         ("IDE", "TODO"),
         ("Terminal", "TODO"),
     ]),
     ("About Me", [
-        ("Focus", "Systems, Hardware, AI"),
-        ("Interests", "Computer Architecture, Graphics, ML"),
+        ("Focus", "AI, Automation, Systems Software, Operating Systems"),
+        ("Interests", "AI/ML, Computer Architecture, Database Internals, Compilers, Operating Systems"),
         ("Hobbies", "TODO"),
         ("Favorite Music", "TODO"),
     ]),
@@ -52,7 +52,7 @@ LINE_H = 20
 PAD = 30
 ART_COLS, ART_ROWS = 46, 24
 GAP_COLS = 4
-INFO_COLS = 60
+INFO_COLS = 64
 
 # Animation
 FRAMES = 60
@@ -99,11 +99,23 @@ def info_lines():
     for title, rows in PROFILE:
         lines.append(rule(f"- {title}"))
         for key, value in rows:
-            dots = INFO_COLS - len(key) - len(value) - 6
+            # Wrap long comma-separated values onto right-aligned continuation lines
+            chunks, budget = [], INFO_COLS - len(key) - 8
+            for item in value.split(", "):
+                if chunks and len(chunks[-1]) + len(item) + 2 <= budget:
+                    chunks[-1] += ", " + item
+                else:
+                    if chunks:
+                        chunks[-1] += ","
+                        budget = INFO_COLS - 2
+                    chunks.append(item)
+            dots = INFO_COLS - len(key) - len(chunks[0]) - 5
             lines.append([
                 ("cc", ". "), ("key", key), ("", ":"),
-                ("cc", " " + "." * max(dots, 1) + " "), ("value", value),
+                ("cc", " " + "." * max(dots, 1) + " "), ("value", chunks[0]),
             ])
+            for chunk in chunks[1:]:
+                lines.append([("", " " * (INFO_COLS - len(chunk))), ("value", chunk)])
     lines.append([("cc", "─" * (INFO_COLS - 4) + "-──-")])
     return lines
 
