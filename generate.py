@@ -19,18 +19,18 @@ PROFILE = [
     ]),
     ("Dev Environment", [
         ("Agents", "Claude, Codex"),
-        ("Harnesses", "TODO"),
-        ("IDE", "TODO"),
-        ("Terminal", "TODO"),
+        ("Harnesses", "Monocode"),
+        ("IDE", "Zed, VS Code"),
+        ("Terminal", "Ghostty"),
     ]),
     ("About Me", [
         ("Focus", "AI, Automation, Systems Software, Operating Systems"),
         ("Interests", "AI/ML, Computer Architecture, Database Internals, Compilers, Operating Systems"),
-        ("Hobbies", "TODO"),
-        ("Favorite Music", "TODO"),
+        ("Hobbies", "Camping, Hiking, Coffee Runs"),
+        ("Favorite Music", "Sade, Deftones, LAUNDRY DAY"),
     ]),
     ("Contact", [
-        ("LinkedIn", "TODO"),
+        ("LinkedIn", "linkedin.com/in/nicholaseovva"),
     ]),
 ]
 
